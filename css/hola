@@ -1,0 +1,82 @@
+
+<ul>
+    <li>Wattson puede colocar hasta 12 nodos eléctricos para crear verjas que hacen daño y reducen la velocidad de los enemigos.
+    </li>
+    <li>Empiezas con 4 nodos, que se recargan con el tiempo.
+    </li>
+    <li>Los compañeros de escuadrón de Wattson pueden atravesar estas vallas sin problemas: se desactivarán a su paso.
+    </li>
+    <li>Puedes usarlas como sistema de alerta, ya que si un enemigo pasa a través de una verja tanto tú como tus compañeros recibiréis un aviso.
+    </li>
+</ul>
+[atributo=""]{
+    Seleccionas los elemntos con el atributo
+}
+
+#"Nombre de la id"{
+    Selecciona una id en el código
+}
+
+."Nombre de la clase"{
+    Selecciona una clase en el código
+}
+
+*{
+    Selecciona todo en el código 
+}
+
+Medidas relativas son:
+
+rem:
+em:
+
+<div class="contenido">
+        <h1>contenido</h1>
+    </div>
+
+    <div class="prueba_video">
+        <video muted autoplay loop class="prueba">
+            <source src="../Recursos/pexels-tima-miroshnichenko-5319759 (2160p).mp4" type="video/mp4">
+        </video>
+
+    </div>
+    <div class="capa"></div>
+</main>
+.contact-form {
+    font-size: 40px;
+    color:  #ffff; 
+    font-family: ;
+    position: relative;
+    z-index: 2;
+ }
+ 
+ .contenido{
+    background: #ffff;
+    position: relative;
+    z-index: 2;
+ }
+ #hero{
+    min-height: 100vh;
+    position: relative;
+
+
+ }
+video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+height: 100%;
+background: #3498DB;
+opacity: 0.5;
+mix-blend-mode: overlay;
+}
+ 

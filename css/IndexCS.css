@@ -1,0 +1,64 @@
+
+
+.text{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+   padding: 12px;
+  width: 96%;
+    color: #DC143C;
+   position: absolute;
+   top: 72%;
+   visibility: hidden;
+   font-size: 90px;
+}
+.imag:hover .text{
+    
+    visibility: visible;
+}
+
+.imag{
+    
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+    
+}
+
+.padre{
+    
+    display: flex;
+    
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+body{
+    background: black;
+}
+ 
+  
+
+
+section{
+    display: flex;
+    width: 900px;
+    height: 600px;
+}
+.imag img{
+    margin: 3px;
+   width: 0px;
+   object-fit: cover;
+   flex-grow: 1;
+    opacity: .8;
+    transition: .5s ease;
+    
+}
+section img:hover {
+    cursor: pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+   
+}
